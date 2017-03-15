@@ -1,0 +1,8 @@
+apply plugin :'java'
+
+repositories { jcenter() }
+dependencies { testCompile "org.mockito:mockito-core:1.+" }
+
+dependencies {
+  testCompile 'junit:junit:4.12'
+}
